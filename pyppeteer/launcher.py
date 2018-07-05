@@ -49,6 +49,7 @@ DEFAULT_ARGS = [
     '--metrics-recording-only',
     '--no-first-run',
     '--safebrowsing-disable-auto-update',
+    '--no-sandbox'
 ]
 
 AUTOMATION_ARGS = [
