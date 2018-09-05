@@ -30,7 +30,7 @@ downloadURLs = {
     'win64': ''.join(['{}'.format(BASE_URL), '/Win_x64/', '{}'.format(REVISION), '/chrome-win32.zip']),
 }
 chromiumExecutable = {
-    'linux': DOWNLOADS_FOLDER / REVISION / 'chrome-linux' / 'chrome',,
+    'linux': DOWNLOADS_FOLDER / REVISION / 'chrome-linux' / 'chrome',
     'mac': ((((((DOWNLOADS_FOLDER / REVISION) / 'chrome-mac') / 'Chromium.app') / 'Contents') / 'MacOS') / 'Chromium'),
     'win32': (((DOWNLOADS_FOLDER / REVISION) / 'chrome-win32') / 'chrome.exe'),
     'win64': (((DOWNLOADS_FOLDER / REVISION) / 'chrome-win32') / 'chrome.exe'),
