@@ -43,7 +43,8 @@ def current_platform() -> str:
     if sys.platform.startswith('linux'):
         if platform.processor() == PLATFORM_ARM64:
             return 'arm64'
-        return 'linux'
+        # hack to use chromium-browser
+        return 'arm64'
     elif sys.platform.startswith('darwin'):
         return 'mac'
     elif sys.platform.startswith('win'):
